@@ -19,7 +19,7 @@
         <div class="text-intro-container">
             <h2 id="status-joc">
                 <script>
-                    document.getElementById("status-joc").innerHTML = "test";
+                    document.getElementById("status-joc").innerHTML = "Try your luck";
                 </script>
             </h2>
         </div>
@@ -37,11 +37,19 @@
         <div class="scor-container">
             <div class="scor-player-container">
                 <h2>Player: </h2>
-                <h2>0</h2>
+                <h2 id="scor-player">
+                    <script>
+                        document.getElementById("scor-player").innerHTML = playerScore;
+                    </script>
+                </h2>
             </div>
             <div class="scor-computer-container">
                 <h2>Computer: </h2>
-                <h2>0</h2>
+                <h2 id="scor-computer">
+                    <script>
+                        document.getElementById("scor-computer").innerHTML = computerScore;
+                    </script>
+                </h2>
             </div>
         </div>
     </section>
