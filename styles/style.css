@@ -5,6 +5,9 @@ body {
     padding: 0px;
     width: 100%;
     height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 #header-section {
     height: 10%;
@@ -16,12 +19,56 @@ body {
 #header-section .h1-titlu {
     color: aquamarine;
     font-size: 2em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: capitalize;
 }
 #main-section {
     height: 80%;
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alegere-container {
+    border: 6px solid black;
+    border-radius: 2em;
+    width: 12em;
+    height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.alegere-container:hover {
+    background-color: #006B47;
+    color: white;
+}
+.alegere-icon {
+    font-size: 5em;
+}
+.alegeri-container {
+    display: flex;
+    flex-direction: row;
+}
+.scor-container {
+    display: flex;
+    flex-direction: row;
+}
+.scor-player-container {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;;
+}
+.scor-player-container h2 {
+    margin: 0.2em;
+}
+.scor-computer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;;
+}
+.scor-computer-container h2 {
+    margin: 0.2em;
 }
 #footer-section {
     height: 10%;
