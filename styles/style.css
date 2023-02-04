@@ -16,7 +16,7 @@ body {
 #header-section .h1-titlu {
     color: aquamarine;
     font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: capitalize;
 }
 #main-section {
@@ -25,5 +25,5 @@ body {
 }
 #footer-section {
     height: 10%;
-    background-color: #006B47;
+    background-color: aquamarine;
 }
