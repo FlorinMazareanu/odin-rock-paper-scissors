@@ -17,16 +17,20 @@
     </section>
     <section id="main-section">
         <div class="text-intro-container">
-            <h2>Pick one and try your luck</h2>
+            <h2 id="status-joc">
+                <script>
+                    document.getElementById("status-joc").innerHTML = "test";
+                </script>
+            </h2>
         </div>
         <div class="alegeri-container">
-            <div class="alegere-container rock-container">
+            <div onclick="getPlayerChoice(0)" class="alegere-container rock-container">
                 <i class="alegere-icon fa-regular fa-hand-fist"></i>
             </div>
-            <div class="alegere-container rpaper-container">
+            <div onclick="getPlayerChoice(1)" class="alegere-container rpaper-container">
                 <i class="alegere-icon fa-regular fa-scroll"></i>
             </div>
-            <div class="alegere-container rscissors-container">
+            <div onclick="getPlayerChoice(2)" class="alegere-container rscissors-container">
                 <i class="alegere-icon fa-solid fa-scissors"></i>
             </div>
         </div>
