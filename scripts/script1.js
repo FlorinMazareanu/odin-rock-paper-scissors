@@ -59,6 +59,18 @@ function getPlayerChoice(playerChoice) {
                 console.log("???");
         }
     }
+    if (playerScore >= 5) {
+        alert("You won :)");
+        playerScore = 0;
+        computerScore = 0;
+        document.getElementById("status-joc").innerHTML = "First to win 5 points wins. Human vs machine";
+    }
+    if (computerScore >= 5) {
+        alert("Computer won :(");
+        playerScore = 0;
+        computerScore = 0;
+        document.getElementById("status-joc").innerHTML = "First to win 5 points wins. Human vs machine";
+    }
     document.getElementById("scor-player").innerHTML = playerScore;
     document.getElementById("scor-computer").innerHTML = computerScore;
 }
